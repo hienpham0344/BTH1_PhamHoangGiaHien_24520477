@@ -12,3 +12,4 @@ C:\Users\HIEN\Documents\3.UIT\HK1_2025-2026\LTTQ\TH\BTH1_24520477_PhamHoangGiaHi
 C:\Users\HIEN\Documents\3.UIT\HK1_2025-2026\LTTQ\TH\BTH1_24520477_PhamHoangGiaHien\Bai01\Bai03\obj\Debug\net9.0\Bai03.pdb
 C:\Users\HIEN\Documents\3.UIT\HK1_2025-2026\LTTQ\TH\BTH1_24520477_PhamHoangGiaHien\Bai01\Bai03\obj\Debug\net9.0\Bai03.genruntimeconfig.cache
 C:\Users\HIEN\Documents\3.UIT\HK1_2025-2026\LTTQ\TH\BTH1_24520477_PhamHoangGiaHien\Bai01\Bai03\obj\Debug\net9.0\ref\Bai03.dll
+C:\Users\HIEN\Documents\3.UIT\HK1_2025-2026\LTTQ\TH\BTH1_24520477_PhamHoangGiaHien\Bai01\Bai03\obj\Debug\net9.0\Bai03.sourcelink.json

@@ -69,7 +69,7 @@
             } while (day is null or < 1 || day > daysInMonth);
             
             var date = new DateTime(year.Value, month.Value, day.Value);
-            Console.WriteLine($"Thang {month.Value} nam {year.Value} thang {day.Value} la thu {GetThuVietNam(date.DayOfWeek)}");
+            Console.WriteLine($"Thang {month.Value} nam {year.Value} ngay {day.Value} la thu {GetThuVietNam(date.DayOfWeek)}");
         }
 
     }

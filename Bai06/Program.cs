@@ -69,11 +69,11 @@
             var rowDel = ReadNullable<int>();
             if (rowDel != null) mat.DeleteRows(rowDel.Value);
             Console.WriteLine("Ma tran sau khi xoa hang:");
+            mat.Print();
             
             var maxValue = mat.MaxElement();
             mat.DeleteColumContainMax(maxValue);
             Console.WriteLine("Ma tran sau khi xoa cot:");
-            
             mat.Print();
             
         }
