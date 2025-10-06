@@ -78,7 +78,7 @@ public class Matrix(List<List<int?>> matrix)
             throw new ArgumentOutOfRangeException(nameof(rows),"chi so hang khong hop le");
         }
         matrix.RemoveAt(rows);
-        return ;
+  
     }
 
     private void DeleteColumns(int col)
@@ -107,8 +107,7 @@ public class Matrix(List<List<int?>> matrix)
         {
             DeleteColumns(i);
         }
-
-        return ;
+        
     }
 
 }
