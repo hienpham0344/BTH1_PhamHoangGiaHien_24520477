@@ -59,7 +59,12 @@
             Console.WriteLine("Phan tu nho nhat = " + mat.MinElement());
             
             // yeu cau 4
-            Console.WriteLine("Hang lon nhat = " + mat.MaxRow());
+            Console.Write("Hang lon nhat = " );
+            foreach (var i in mat.MaxRow())
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
             
             // yeu cau 5
             Console.WriteLine("Tong phan tu khong phai so nguyen to = " + mat.SumNotPrimeNums());

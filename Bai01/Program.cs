@@ -1,4 +1,5 @@
-﻿namespace Program
+﻿
+namespace Program
 {
     class Program
     {
@@ -13,20 +14,26 @@
             }
             catch
             {
-               Console.WriteLine("Input is invalid");
-               return null;
+                Console.WriteLine("Input is invalid");
+                return null;
             }
         }
 
         private static bool PrimeNum(int? n)
         {
-            
-            if (n < 2) return false;
-            if (n == 2) return true;
-            if (n % 2 == 0) return false; 
-            for (var i = 3; i * i <= n; i += 2) 
-                if (n % i == 0) return false;
-            return true;
+            if (n is null) return false; 
+            switch (n.Value)
+            {
+                case < 2:
+                case var x when x % 2 == 0 && x != 2:
+                    return false;
+                case 2:
+                    return true;
+                default:
+                    for (var i = 3; i * i <= n; i += 2)
+                        if (n % i == 0) return false;
+                    return true;
+            }
         }
         
         private static bool IsPerfectSquare(int? n)
